@@ -14,7 +14,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(30000)		
 		Clients()
-	end
+	end)
 
 Citizen.CreateThread(function()
 	SwitchTrainTrack(0, config.trainOn)
