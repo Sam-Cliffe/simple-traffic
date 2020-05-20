@@ -5,7 +5,6 @@ Citizen.CreateThread(function()
 		SetScenarioPedDensityMultiplierThisFrame(config.pedFrequency, config.pedFrequency)
 
 		SetRandomVehicleDensityMultiplierThisFrame(config.trafficFrquency)
-		SetParkedVheicleDensityThisFrame(config.trafficFrquency)
 		SetVehicleDensityMultiplierThisFrame(config.trafficFrquency)
 	end
 end)
